@@ -1,0 +1,51 @@
+*{
+    font-family: Arial, sans-serif;
+    color: white;
+}
+body{
+    height: 100vh;
+    background-color: black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading{
+    font-size: 80px;
+    text-align: center;
+    color: red;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.timer{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timer__label{
+    font-size: 30px;
+    text-align: center;
+}
+.timer__time{
+    font-size: 70px;
+    text-align: center;
+}
+.params{
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
