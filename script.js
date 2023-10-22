@@ -32,7 +32,7 @@ const running = () => {
 const checkStage = () => {
     const audio = new Audio("./sound.mp3");
     const audio2 = new Audio("./sound2.mp3");
-    if (stage === 1 && minutes === workTime && round === 5){
+    if (stage === 1 && minutes === workTime && round === 4){
         console.log('Big rest')
         stage = 3
         timerLabel.innerHTML = 'Большой отдых'
