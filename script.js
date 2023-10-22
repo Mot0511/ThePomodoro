@@ -13,7 +13,7 @@ let stage = 0
 let round = 1
 
 const running = () => {
-    setTimeout(() => {
+    setInterval(() => {
         seconds++
         if (seconds > 59){
             seconds = 0
@@ -23,6 +23,8 @@ const running = () => {
         if (run){
             setLabel()
             checkStage()
+        } else{
+
         }
 
     }, 1000)
@@ -57,7 +59,6 @@ const checkStage = () => {
         round = 0
     }
     setLabel()
-    running()
 }
 
 const setLabel = () => {
