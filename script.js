@@ -20,7 +20,6 @@ const running = () => {
                 seconds = 0
                 minutes++
             }
-            console.log(run);
             setLabel()
             checkStage()
         } else{
@@ -33,7 +32,6 @@ const running = () => {
 const checkStage = () => {
     const audio = new Audio("./sound.mp3");
     const audio2 = new Audio("./sound2.mp3");
-    console.log(round);
     if (stage === 1 && minutes === workTime && round === 5){
         console.log('Big rest')
         stage = 3
